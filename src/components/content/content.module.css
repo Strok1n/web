@@ -1,0 +1,73 @@
+.content {
+   grid-area: content;
+    background-color: lightskyblue;
+   }
+
+.site_card {
+    padding: 30px;
+    background: #ececec;
+}
+
+
+.myProfile{
+    display: grid;
+
+    grid-template-areas:
+            "image description";
+    grid-template-columns: 1fr 4fr;
+    background: #ececec;
+    padding: 20px;
+}
+
+.profileImage{
+    grid-area: image;
+}
+
+.desc{
+    grid-area: description;
+}
+
+
+
+.messages{
+    display: grid;
+
+    grid-template-areas:
+            "users messages";
+
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 5px;
+}
+.users {
+    grid-area: users;
+    margin: 10px;
+}
+
+.users a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+.users a.active{
+    color: black;
+}
+
+.users {
+    grid-area: content;
+    background-color: #36a1f0;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+
+.picture{
+    width: 100px;
+    border-radius: 40px;
+}

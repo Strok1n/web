@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "sidebar content";
+
+  grid-template-rows: 60px, 1fr;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 10px;
+
+ }

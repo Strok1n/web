@@ -1,0 +1,29 @@
+.sidebar{
+    grid-area: sidebar;
+    background-color: #36a1f0;
+   }
+
+.item{
+    margin: 10px;
+}
+
+
+.item a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+
+.item a.active{
+    color: black;
+
+}
+
+.header {
+    grid-area: header;
+    background-color: #022044;
+}
+
+.header img{
+    width: 110px;
+}
